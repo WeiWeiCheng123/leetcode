@@ -4,7 +4,7 @@ func threeSumClosest(nums []int, target int) int {
     })
     closest := nums[0] + nums[1] + nums[2]
     n := len(nums)
-    for i, _ := range nums {
+    for i := 0; i < n-2; i++ {
         left := i + 1
         right := n - 1
         for left < right {
