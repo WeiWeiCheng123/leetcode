@@ -4,8 +4,8 @@ func searchMatrix(matrix [][]int, target int) bool {
         right := len(s) - 1
         for left <= right {
             if matrix[i][left] != target && matrix[i][right] != target {
-                left ++
-                right --
+                left++
+                right--
             } else {
                 return true
             }

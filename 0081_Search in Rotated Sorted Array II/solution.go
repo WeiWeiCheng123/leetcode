@@ -3,8 +3,8 @@ func search(nums []int, target int) bool {
     right := len(nums) - 1
     for left <= right {
         if nums[left] != target && nums[right] != target {
-            left ++
-            right --
+            left++
+            right--
         } else {
             return true
         }

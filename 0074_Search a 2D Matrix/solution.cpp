@@ -6,8 +6,8 @@ public:
             int right = matrix[i].size() - 1;
             while (left <= right) {
                 if (matrix[i][left] != target && matrix[i][right] != target) {
-                    left ++;
-                    right --;
+                    left++;
+                    right--;
                 }
                 else {
                     return true;

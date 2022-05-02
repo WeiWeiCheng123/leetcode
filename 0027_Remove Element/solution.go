@@ -3,7 +3,7 @@ func removeElement(nums []int, val int) int {
     for _, s := range nums {
         if s != val {
             nums[k] = s
-            k ++
+            k++
         }
     }
     return k
